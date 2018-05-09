@@ -1,0 +1,71 @@
+ https://www.adafruit.com/product/1120
+Product details
+https://www.raspberrypi.org/forums/viewtopic.php?t=123737
+How to read the directions
+http://www.mikronauts.com/wp-content/upload/2014/01/RoboPi-User-Manual-v0.85b.pdf 
+Basic user manual for Raspberry Pi
+
+ 
+Magnetometer I2C pinout
+
+Pin 1 -- SCL
+Pin 2 -- SDA
+Pin 3 -- I2 (Int2)
+Pin 4 -- I1 (Int1)
+Pin 5 -- DRDY
+Pin 6 -- GND
+Pin 7 -- VIN
+Pin 8 -- 3v3
+
+
+
+
+
+Robo Pi I2C Pinout- confirmed- use tape on cord to understand where everything goes
+
+Pin 1 -- Vdd (power)’, 3v3- volts and position
+Pin 2 -- Data- SDA position
+Pin 3 -- Clock- SCL position
+Pin 4 -- Vss (GND) position on the board
+
+
+SMBus I2C pinout
+
+Pin 1 -- Clock
+Pin 2 -- GND
+Pin 3 -- Data
+Pin 4 -- +3.3v- tested with the volt meter(not 5)
+
+Word = the number of bytes- more than one
+
+AccessBus:
+Gnd, data, +5, clk
+
+
+Device address:  0x1e or 0x??
+
+
+Things We Did:
+Sautered magnetometer
+Put magnetometer on robot
+Made wire
+Tested sauters and wire
+Found links for websites with advice on how to read magnetometer output
+Research on pin of magnetometer
+Enable i2c (pi password: wearetrustingyou) then say “sudo raspi-config” then select “interface thingies” then select “i2c”
+
+
+http://www.raspberry-projects.com/pi/programming-in-python/i2c-programming-in-python/using-the-i2c-interface-2 
+Ideas:
+Pins: 1-4
+See above
+
+
+Things We Need to Do:
+Confirm pins
+Find commands
+Write code
+
+http://www.raspberry-projects.com/pi/programming-in-python/i2c-programming-in-python/using-the-i2c-interface-2
+https://pinout.xyz/
+https://www.raspberrypi.org/forums/viewtopic.php?t=151330
